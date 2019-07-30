@@ -1,0 +1,26 @@
+{
+  "name": "mp",
+  "version": "1.0.0",
+  "description": "my project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "start": "pm2 start ./config/pm2.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefine/mp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefine/mp/issues"
+  },
+  "homepage": "https://github.com/codefine/mp#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-static": "^5.0.0"
+  }
+}
