@@ -3,7 +3,6 @@
         {
             "name": "home",
             "script": "server.js",
-            "cwd": "/root/workspace/home",
             "ignore_watch": [
                 "node_modules"
             ],
