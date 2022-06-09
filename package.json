@@ -4,9 +4,9 @@
   "description": "home",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
-    "start": "pm2 start ./config/pm2.json"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,9 @@
     "url": "https://github.com/codefine/home/issues"
   },
   "homepage": "https://github.com/codefine/home#readme",
-  "dependencies": {
-    "koa": "^2.7.0",
-    "koa-static": "^5.0.0"
+  "devDependencies": {
+    "sass": "^1.52.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
   }
 }

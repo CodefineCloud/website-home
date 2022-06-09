@@ -1,0 +1,23 @@
+$IMAGE_URL: "@/static/images";
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+
+  & > .imageBox {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    // background-color: #ccc;
+    background-image: url(@/static/images/logo.png);
+    background-size: cover;
+  }
+
+  img {
+    width: 400px;
+  }
+}
