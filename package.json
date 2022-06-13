@@ -2,7 +2,6 @@
   "name": "home",
   "version": "1.0.0",
   "description": "home",
-  "main": "server.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -20,6 +19,8 @@
   },
   "homepage": "https://github.com/codefine/home#readme",
   "devDependencies": {
+    "koa": "^2.13.4",
+    "koa-static": "^5.0.0",
     "sass": "^1.52.3",
     "typescript": "^4.5.4",
     "vite": "^2.9.9"
