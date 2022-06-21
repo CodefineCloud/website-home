@@ -1,4 +1,4 @@
-{
+export default {
     "name": "private-home",
     "command": "npm run build",
     "dest": "./dist",
